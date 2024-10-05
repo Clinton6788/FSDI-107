@@ -1,0 +1,14 @@
+When using terminal:
+if windows, 'py'
+mac is python3
+
+To install something, use 'pip': 'py -m pip install'
+
+To create virtual environment,
+1. py -m pip install virtualenv
+2. py -m venv venv(name of the folder)
+3. #activate the virtual environment
+    - source (foldername)/bin/activate  #mac
+    - (foldername)\Scripts\activate  #windows
+4. py -m pip install flask
+# IF this doesn't work, deactivate venv, re-download flask, then activate venv again.
